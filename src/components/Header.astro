@@ -5,8 +5,7 @@ import { author, buy } from '../sample'
 
 const links = [
     { name: 'About', path: '/', target: '_self' },
-    { name: 'Blog', path: '/blog/', target: '_self' },
-    { name: 'Hire Me', path: '/#', target: '_self' },
+    { name: 'Contact Me', path: '/', target: '_self' },
 ]
 
 const { pathname } = Astro.url
@@ -35,15 +34,15 @@ const { pathname } = Astro.url
             <a href="#" class="flex md:hidden" id="menu-open">
                 <i class="ri-menu-2-line text-2xl"></i>
             </a>
-            <ul class="hidden md:flex">
+            <!-- <ul class="hidden md:flex">
                 {links.map(item => ( 
                     <li class="border-l-2 border-black p-3 py-4">
                         <a href={item.path} target={item.target} class="whitespace-nowrap relative flex items-center before:absolute before:left-0 before:bottom-1 before:h-[8px] before:w-0 before:bg-[var(--yellow)] before:transition-all before:duration-300 hover:before:w-full">
-                            <span class="relative z-5">{item.name} {pathname == item.path ? '//' : ''}</span>
+                            <span class="relative z-5">{item.name} {pathname == item.path ? '' : ''}</span>
                         </a>
                     </li>
                 ))}
-            </ul>
+            </ul> -->
         </nav>
     </div>
   </header>

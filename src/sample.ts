@@ -1,17 +1,14 @@
 const author = {
-    name: `Angela`,
-    nickname: `angie`,
-    tiktok: `https://www.tiktok.com/@codetonero`,
-    ig: `https://www.instagram.com/codetonero/`,
-    x: `https://x.com/codetonero`,
-    email: 'mailto:anthonylannn@gmail.com'
+    name: `Tiffany`,
+    nickname: `tiff`,
+    email: 'mailto:tiffanyashleymendoza@gmail.com'
 
 }
 
 
 const buy = {
-    title: `See on Github`,
-    link: `https://github.com/anthonylan/angie`
+    title: `See on LinkedIn`,
+    link: `https://www.linkedin.com/in/tiffany-m-a595a8270/`
 }
 
 
